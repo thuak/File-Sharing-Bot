@@ -44,7 +44,7 @@ async def start_command(client: Client, message: Message):
         try:
             messages = await get_messages(client, ids)
         except:
-            await message.reply_text("Terjadi suatu masalah..!")
+            await message.reply_text("Terjadi masalah..!")
             return
         await temp_msg.delete()
 
@@ -76,7 +76,7 @@ async def start_command(client: Client, message: Message):
                     InlineKeyboardButton("🔥 ᴏᴘᴇɴ", callback_data = "about"),
                     InlineKeyboardButton("🔒 ᴄʟᴏsᴇ", callback_data = "close")
                 ],[
-                    InlineKeyboardButton("ᴠɪᴅᴇᴏ ᴠɪʀᴀʟ", url="https://t.me/chmongabut")
+                    InlineKeyboardButton("ᴠɪᴅᴇᴏ ᴠɪʀᴀʟ", url="https://t.me/asupanindoviraals")
                   ]
             ]
         )
@@ -96,7 +96,7 @@ async def start_command(client: Client, message: Message):
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):
-    text = "<b>AKSES ANDA DI TOLAK !!\nWajib join channel/group agar akses diterima\n\nKlik Join Dibawah Ini</b>"
+    text = "<b>AKSES ANDA DI TOLAK !!\nWajib join channel/group dibawah ini agar akses diterima\n\nJoin Klik Di Bawah Ini</b>"
     message_text = message.text
     try:
         command, argument = message_text.split()
