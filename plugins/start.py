@@ -74,7 +74,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("🔥 ᴏᴘᴇɴ", callback_data = "about"),
-                    InlineKeyboardButton("🔒 ᴏᴘᴇɴ ᴄʟᴏsᴇ ᴠɪᴅᴇᴏ ᴠɪʀᴀʟ", callback_data = "close")
+                    InlineKeyboardButton("🔒 ᴄʟᴏsᴇ", callback_data = "close")
                 ],[
                     InlineKeyboardButton("ᴠɪᴅᴇᴏ ᴠɪʀᴀʟ", url="https://t.me/chmongabut")
                   ]
