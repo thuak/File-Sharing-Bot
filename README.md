@@ -1,4 +1,4 @@
-<h1 align="center"> FILE SHARING BOT
+<h1 align="center"> THUAK BOT
 
 <p align="center"> -
 <p align="center">
