@@ -1,5 +1,6 @@
-# File-sharing-Bot
+<h1 align="center"> FILE SHARING BOT
 
+<p align="center"> -
 <p align="center">
   <a href="https://www.python.org">
     <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" width ="250">
