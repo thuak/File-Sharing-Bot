@@ -73,10 +73,10 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🔥 ᴏᴘᴇɴ", callback_data = "about"),
-                    InlineKeyboardButton("🔒 ᴄʟᴏsᴇ", callback_data = "close")
+                    InlineKeyboardButton("🔥 info", callback_data = "about"),
+                    InlineKeyboardButton("🔒 tutup", callback_data = "close")
                 ],[
-                    InlineKeyboardButton("ᴠɪᴅᴇᴏ ᴠɪʀᴀʟ", url="https://t.me/asupanindoviraals")
+              
                   ]
             ]
         )
@@ -96,7 +96,7 @@ async def start_command(client: Client, message: Message):
 
 @Bot.on_message(filters.command('start') & filters.private)
 async def not_joined(client: Client, message: Message):
-    text = "<b>AKSES ANDA DI TOLAK !!\nWajib join channel/group dibawah ini agar akses diterima\n\nJoin Klik Di Bawah Ini</b>"
+    text = "<b>klik join dulu kak biar bisa !!\nWajib join channel\n\nJoin Klik Di Bawah Ini</b>"
     message_text = message.text
     try:
         command, argument = message_text.split()
